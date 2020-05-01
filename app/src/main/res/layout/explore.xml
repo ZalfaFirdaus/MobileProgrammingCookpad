@@ -1,0 +1,73 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="385dp"
+        android:layout_height="51dp"
+        android:layout_aligentParentTop="true"
+        android:text="Search recipes"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="3dp"></EditText>
+
+    <ImageButton
+        android:id="@+id/suara"
+        android:layout_width="30dp"
+        android:layout_height="36dp"
+        android:layout_right="@+id/search"
+        android:layout_aligentParentTop="true"
+        app:srcCompat="@android:drawable/ic_btn_speak_now"
+        tools:layout_editor_absoluteX="366dp"
+        tools:layout_editor_absoluteY="12dp" />
+
+    <TextView
+        android:id="@+id/ket"
+        android:layout_width="399dp"
+        android:layout_height="55dp"
+        android:text="Resep  terbaru"
+        android:layout_below="@+id/search"
+        android:shadowColor="grey"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <ImageButton
+        android:id="@+id/cari"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_left="@+id/search"
+        android:layout_aligentParentTop="true"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="12dp" />
+
+    <ImageButton
+        android:id="@+id/jelajah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_aligentParentLeft="true"
+        android:layout_aligentParentBottom="true"
+        app:srcCompat="@drawable/g_rencana"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <ImageButton
+        android:id="@+id/rencana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_aligentParentRight="true"
+        android:layout_aligentParentBottom="true"
+        app:srcCompat="@drawable/g_plan"
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+ 
